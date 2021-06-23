@@ -40,32 +40,24 @@ img{
     width: auto; */
     display: block;
     max-width: 100%;
+
 }
 
 .split{
+
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+    
 }
 
-.split .transform{
-    margin-left: auto;
-    width: min(90%,70.5rem);
-}
+
 
 .img-splitter{
     display: grid;
     grid-template-columns: 2fr 2fr;
 }
-/* .cherry-bg{
-    background-image: url("../images/desktop/image-graphic-design.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.orange-bg{
-    background-image: url("../images/desktop/image-photography.jpg");
-    background-size: cover;
-    background-position: center;
-} */
+
 
  .split-testimonials{
      display: grid;
