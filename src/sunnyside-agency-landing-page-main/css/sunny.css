@@ -148,7 +148,7 @@ img{
 }
 
 @media (min-width: 700px){
-    .about-sunny .split-content--order{
+    .about-sunny .desktop-image-splitted{
         order: 2;
     }
 }
@@ -201,4 +201,20 @@ img{
         font-size: 1.5rem;
         text-align: left;
     }
+}
+@media (min-width: 900px){
+    .about-sunny .split-title{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1440px){
+    .about .split-title{
+        font-size: 2.5rem;
+    }
+}
+
+.about-sunny .split__content{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
 }
