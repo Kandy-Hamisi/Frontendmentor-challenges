@@ -8,17 +8,39 @@
     <link rel="stylesheet" href="css/sunny.css">
 </head>
 <body>
+
+    <!-- navbar section -->
+    <header>
+        <div class="header">
+            <!-- logo -->
+            <div class="logo my-logo">
+                <img src="images/logo.svg" alt="sunnyside logo">
+            </div>
+            <!-- navs -->
+            <div class="nav-btn">
+                <span class="nav-btn__main"></span>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav class="nav">
+            <ul class="my-nav" style="color: black;">
+                <li class="my-nav__item"><a href="" class="my-nav__link">About</a></li>
+                <li class="my-nav__item"><a href="" class="my-nav__link">Services</a></li>
+                <li class="my-nav__item"><a href="" class="my-nav__link">Projects</a></li>
+                <li class="my-nav__item"><a href="" class="my-nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="wrapper">
         <main>
 
             <!-- Creative section -->
             <section id="page-top" class="creative">
-                <div class="container">
+                
                     <h1 class="title creative-title">We are Creatives</h1>
                     <a href="#page-top">
                         <img src="images/icon-arrow-down.svg" alt="">
                     </a>
-                </div>
             </section>
 
             <!-- About Sunnyside Section -->
@@ -118,21 +140,22 @@
             <!-- image gallery section -->
             <section class="gallery">
                 <div class="image-container">
-                    <img src="images/mobile/image-gallery-milkbottles.jpg" alt="" class="mobile-image">
-                    <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="desktop-image">
+                    <img src="images/mobile/image-gallery-milkbottles.jpg" alt="" class="gallery__image--mobile">
+                    <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="gallery__image--desktop">
                 </div>
                 <div class="image-container">
-                    <img src="images/mobile/image-gallery-orange.jpg" alt="" class="mobile-image">
-                    <img src="images/desktop/image-gallery-orange.jpg" alt="" class="desktop-image">
+                    <img src="images/mobile/image-gallery-orange.jpg" alt="" class="gallery__image--mobile">
+                    <img src="images/desktop/image-gallery-orange.jpg" alt="" class="gallery__image--desktop">
                 </div>
                 <div class="image-container">
-                    <img src="images/mobile/image-gallery-cone.jpg" alt="" class="mobile-image">
-                    <img src="images/desktop/image-gallery-cone.jpg" alt="" class="desktop-image">
+                    <img src="images/mobile/image-gallery-cone.jpg" alt="" class="gallery__image--mobile">
+                    <img src="images/desktop/image-gallery-cone.jpg" alt="" class="gallery__image--desktop">
                 </div>
                 <div class="image-container">
-                    <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="" class="mobile-image">
-                    <img src="images/desktop/image-gallery-sugar-cubes.jpg" alt="" class="desktop-image">
+                    <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="" class="gallery__image--mobile">
+                    <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" class="gallery__image--desktop">
                 </div>
+                
             </section>
 
 
@@ -159,5 +182,8 @@
             </footer>
         </main>
     </div>
+
+    <!-- linking javascript -->
+    <script src="js/main.js"></script>
 </body>
 </html>
